@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Title </title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+
+	<body>
+<div class="container">
+        <div class="header">
+            <div class="logo"> </div>
+
+            <div class="heading"><h1>Transparent Government in Fact (TGIF)</h1>
+        
+<div class="mail"><span class="glyphicon glyphicon-envelope"></span><a href="mailto:info@tgif.net" target="_top"> info@tgif.net</a></div></div>
+
+</div>
+
+       
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="home.html">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Congress 113<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="house-data.html">House</a></li>
+                            <li><a href="senate-data.html">Senate</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Attendance<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="houseAttendance.html">House</a></li>
+                            <li><a href="SenateAttendance.html">Senate</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Party Loyalty<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="housePartyLoyalty.html">House</a></li>
+                            <li><a href="SenatePartyLoyalty.html">Senate</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+         <div class="maincontent">
+            <div class="side-content">
+                <h2 class="spacing" >Party Loyalty</h2>
+                <p class="text-justify">Those who consider themselves to be strong partisans, strong Democrats and strong Republicans respectively, tend to be the most faithful in voting for their party's nominee for office and legislation that backs their party's agenda.</p>
+            </div>
+            <div class=side-content>
+                <h3 class="spacing"  id="text-align">House at a glance</h3>
+
+                <div class="party-data">
+                    <table class="table table-striped">
+                        <tr>
+                            <th>Party</th>
+                            <th>No of Reps</th>
+                            <th>% Vote with Party</th>
+                        </tr>
+                        <tbody id="senatetable"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+         <div class="maincontent">
+            <div class="side-content">
+        <h3 class="spacing" id="text-center"> Least Loyal (Bottom 10% of Party)</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Number Party Votes</th>
+                <th>% Party Vote</th>
+                
+            </tr>
+        </thead>
+        <tbody id="Least-Loyal">
+
+        </tbody>
+    </table>
+             </div>
+              
+            <div class="side-content">
+<h3 class="spacing" id="text-center"> Most Loyal (Top 10% of Party)</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Number Party Votes</th>
+                <th>% Party Vote</th>
+                
+            </tr>
+        </thead>
+        <tbody id="Most-Loyal">
+
+        </tbody>
+    </table>
+             </div>
+    </div>
+        <div class="footer">
+                <h5>© 2016 Copyright: All Rights Reserved</h5>
+            </div>
+    </div>
+        
+        <script src="congress-113-house.js"></script>
+    <script src="statistics.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    padding: 0px;
+    color: white;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.logo {
+    display: inline-block;
+    width: 15%;
+    height: 120px;
+    padding: 0px;
+    background-image: url(images/tgif1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    margin: 0px;
+}
+
+.heading {
+    font-family: sans-serif;
+    width: 84%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    padding-left: 20px;
+
+}
+
+.mail {
+    font-size: 17px;
+    height: 120px;
+    align-items: flex-end;
+    color: #337ab7;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2px;
+}
+
+.mainbox {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    display: inline-block;
+    width: 75%;
+
+}
+
+.homeimage {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    width: 24%;
+    height: 350px;
+    padding: 2px;
+    float: right;
+    margin: 2px;
+
+}
+
+.homeimage > img {
+    width: 90%;
+}
+
+.text-justify {
+    text-align: justify;
+    margin-bottom: 18px;
+}
+
+.footer {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-color: #66ff33;
+}
+
+#displayMessage {
+    color: red;
+    font-size: 20px;
+    opacity: 0;
+    animation: blinking 1s linear infinite;
+}
+
+@keyframes blinking {
+
+    from,
+    49.9% {
+        opacity: 0;
+    }
+
+    50%,
+    to {
+        opacity: 1;
+    }
+}
+
+.maincontent {
+    margin-top: 20px;
+    display: flex;
+}
+
+.side-content {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+#text-align {
+    text-align: right;
+
+}
+#text-center{
+    text-align: center;
+}
+
+.spacing {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
